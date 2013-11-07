@@ -10,10 +10,10 @@ Uploaders: Daniel Schepler <schepler@debian.org>,
  Eshat Cakar <info@eshat.de>,
  Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
  Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
+Build-Depends: kde-sc-dev-latest (>= 4:4.11),
  cmake, debhelper (>= 9), pkg-kde-tools (>= 0.14),
- kdelibs5-dev (>= 4:4.10),
- libkdegames-dev (>= 4:4.10)
+ kdelibs5-dev (>= 4:4.11),
+ libkdegames-dev (>= 4:4.11)
 Standards-Version: 3.9.4
 Homepage: http://games.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/ksnakeduel.git
@@ -23,7 +23,7 @@ Package: ktron
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: khelpcenter4
-Description: Tron-like snakerace game 
+Description: Tron-like snakerace game
  The object of the game is to avoid running into walls, your own tail,
  and that of your opponent, while at the same time you have to try to
  get your opponent to run into them.
