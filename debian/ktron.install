@@ -1,7 +1,7 @@
-../icons/ktron-16.xpm /usr/share/pixmaps
-../icons/ktron.xpm /usr/share/pixmaps
 ../icons/kdesnake-16.xpm /usr/share/pixmaps
 ../icons/kdesnake.xpm /usr/share/pixmaps
+../icons/ktron-16.xpm /usr/share/pixmaps
+../icons/ktron.xpm /usr/share/pixmaps
 usr/games/kdesnake
 usr/games/ktron
 usr/share/applications/kde4/kdesnake.desktop
