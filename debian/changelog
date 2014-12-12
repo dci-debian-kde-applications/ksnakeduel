@@ -1,3 +1,9 @@
+ksnakeduel (4:4.14.0-1ubuntu1) UNRELEASED; urgency=medium
+
+  * Remove kdelibs5-dev depend version as there was not a new release.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 12 Dec 2014 14:20:30 -0800
+
 ksnakeduel (4:4.14.0-1) unstable; urgency=medium
 
   * New upstream release.
