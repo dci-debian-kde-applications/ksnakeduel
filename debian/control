@@ -1,7 +1,7 @@
 Source: ksnakeduel
 Section: games
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Daniel Schepler <schepler@debian.org>,
            Sune Vuorela <sune@debian.org>,
            Fathi Boudra <fabo@debian.org>,
@@ -18,19 +18,21 @@ Build-Depends: cmake,
                pkg-kde-tools (>= 0.14)
 Standards-Version: 3.9.5
 Homepage: http://games.kde.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/ksnakeduel.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/ksnakeduel.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/ksnakeduel.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/ksnakeduel.git
 
-Package: ktron
+Package: ksnakeduel
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: khelpcenter4
-Description: Tron-like snakerace game
+Replaces: ktron (<< 4:4.9.97-0ubuntu2)
+Breaks: ktron (<< 4:4.9.97-0ubuntu2)
+Recommends: khelpcenter
+Description: snake race game
  The object of the game is to avoid running into walls, your own tail,
  and that of your opponent, while at the same time you have to try to
  get your opponent to run into them.
  .
- KTron also includes kdesnake, a special mode of the game where you can play
+ It also includes kdesnake, a special mode of the game where you can play
  the classical snake action game. In snake you steer a snake which has to eat
  food. While eating, the snake grows. But once a player collides with the other
  snake or the wall, the game is lost. This becomes, of course, more and more

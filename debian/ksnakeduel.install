@@ -3,9 +3,9 @@
 ../icons/ktron-16.xpm /usr/share/pixmaps
 ../icons/ktron.xpm /usr/share/pixmaps
 usr/games/kdesnake
-usr/games/ktron
+usr/games/ksnakeduel
+usr/share/applications/kde4/ksnakeduel.desktop
 usr/share/applications/kde4/kdesnake.desktop
-usr/share/applications/kde4/ktron.desktop
 usr/share/doc/kde/HTML/en/ktron/common
 usr/share/doc/kde/HTML/en/ktron/index.cache.bz2
 usr/share/doc/kde/HTML/en/ktron/index.docbook
