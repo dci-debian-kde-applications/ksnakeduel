@@ -4,6 +4,13 @@ ksnakeduel (4:14.12.3-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 26 Mar 2015 12:50:42 +0100
 
+ksnakeduel (4:14.12.3-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Release to archive.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 15:09:08 -0700
+
 ksnakeduel (4:14.12.0-0ubuntu1) vivid; urgency=medium
 
   [ Scarlett Clark ]
@@ -67,7 +74,7 @@ ksnakeduel (4:4.13.2-0ubuntu4) utopic; urgency=medium
 
 ksnakeduel (4:4.13.2-0ubuntu3) utopic; urgency=medium
 
-  * Add a transitional package for ksnakeduel 
+  * Add a transitional package for ksnakeduel
   * ktron breaks/replaces ksnakeduel << 4:4.13.2
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 06 Jul 2014 22:25:11 +0200
@@ -333,4 +340,3 @@ ksnakeduel (4:4.9.90-0ubuntu1) raring; urgency=low
   * Initial release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Dec 2012 17:39:47 +0000
-
