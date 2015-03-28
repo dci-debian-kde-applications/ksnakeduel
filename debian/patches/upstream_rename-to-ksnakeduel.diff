@@ -1,16 +1,16 @@
 https://git.reviewboard.kde.org/r/121589/
 
-Index: ksnakeduel-14.12.0/CMakeLists.txt
+Index: ksnakeduel/CMakeLists.txt
 ===================================================================
---- ksnakeduel-14.12.0.orig/CMakeLists.txt
-+++ ksnakeduel-14.12.0/CMakeLists.txt
+--- ksnakeduel.orig/CMakeLists.txt	2015-03-28 12:03:08.059680706 +0100
++++ ksnakeduel/CMakeLists.txt	2015-03-28 12:03:08.055680868 +0100
 @@ -1,4 +1,4 @@
 -project(ktron)
 +project(ksnakeduel)
  
  if(NOT COMPILING_KDEGAMES)
  	find_package(KDE4 REQUIRED)
-@@ -17,7 +17,7 @@ add_subdirectory(doc)
+@@ -17,7 +17,7 @@
  
  ########### next target ###############
  
@@ -19,7 +19,7 @@ Index: ksnakeduel-14.12.0/CMakeLists.txt
  	renderer.cpp
  	object.cpp
  	snakepart.cpp
-@@ -30,24 +30,24 @@ set(ktron_SRCS
+@@ -30,24 +30,24 @@
  	ktron.cpp
  	main.cpp)
  
@@ -51,10 +51,10 @@ Index: ksnakeduel-14.12.0/CMakeLists.txt
  install(FILES  ktron.kcfg DESTINATION ${KCFG_INSTALL_DIR})
  install(FILES  ktronui.rc DESTINATION ${DATA_INSTALL_DIR}/ktron)
  install(FILES  ktron.knsrc DESTINATION ${CONFIG_INSTALL_DIR})
-Index: ksnakeduel-14.12.0/kdesnake.cmake
+Index: ksnakeduel/kdesnake.cmake
 ===================================================================
---- ksnakeduel-14.12.0.orig/kdesnake.cmake
-+++ ksnakeduel-14.12.0/kdesnake.cmake
+--- ksnakeduel.orig/kdesnake.cmake	2015-03-28 12:03:08.059680706 +0100
++++ ksnakeduel/kdesnake.cmake	2015-03-28 12:03:08.055680868 +0100
 @@ -1,6 +1,6 @@
  #!/bin/sh
  #
@@ -64,10 +64,10 @@ Index: ksnakeduel-14.12.0/kdesnake.cmake
  
 -ktron --snake
 +kdesnake --snake
-Index: ksnakeduel-14.12.0/ksnakeduel.desktop
+Index: ksnakeduel/ksnakeduel.desktop
 ===================================================================
---- /dev/null
-+++ ksnakeduel-14.12.0/ksnakeduel.desktop
+--- /dev/null	1970-01-01 00:00:00.000000000 +0000
++++ ksnakeduel/ksnakeduel.desktop	2015-03-28 12:03:08.055680868 +0100
 @@ -0,0 +1,53 @@
 +[Desktop Entry]
 +Type=Application
@@ -122,10 +122,10 @@ Index: ksnakeduel-14.12.0/ksnakeduel.desktop
 +X-KDE-StartupNotify=true
 +X-DCOP-ServiceType=Multi
 +Categories=Qt;KDE;Game;ArcadeGame;
-Index: ksnakeduel-14.12.0/ktron.desktop
+Index: ksnakeduel/ktron.desktop
 ===================================================================
---- ksnakeduel-14.12.0.orig/ktron.desktop
-+++ /dev/null
+--- ksnakeduel.orig/ktron.desktop	2015-03-28 12:03:36.438514203 +0100
++++ /dev/null	1970-01-01 00:00:00.000000000 +0000
 @@ -1,53 +0,0 @@
 -[Desktop Entry]
 -Type=Application
@@ -159,7 +159,7 @@ Index: ksnakeduel-14.12.0/ktron.desktop
 -Name[nb]=KSnakeDuel
 -Name[nds]=KSnakeDuel
 -Name[nl]=KSnakeDuel
--Name[pl]=KSnakeDuel
+-Name[pl]=Pojedynek węży
 -Name[pt]=KSnakeDuel
 -Name[pt_BR]=KSnakeDuel
 -Name[ro]=KSnakeDuel
