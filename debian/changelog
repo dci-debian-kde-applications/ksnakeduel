@@ -1,7 +1,11 @@
 ksnakeduel (4:15.04.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * Removed upstream applied upstream_rename-to-ksnakeduel.diff 
   * New upstream release
+
+  [ José Manuel Santamaría Lema ]
+  * Fix install file.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 15 Apr 2015 14:46:00 -0700
 
