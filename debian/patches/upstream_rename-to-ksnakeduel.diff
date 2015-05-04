@@ -71,7 +71,7 @@ Index: ksnakeduel-14.12.0/ksnakeduel.desktop
 @@ -0,0 +1,53 @@
 +[Desktop Entry]
 +Type=Application
-+Exec=ktron -caption %c %i
++Exec=ksnakeduel -caption %c %i
 +Icon=ktron
 +X-DocPath=ktron/index.html
 +Terminal=false
