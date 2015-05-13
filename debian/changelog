@@ -12,12 +12,12 @@ ksnakeduel (4:15.04.0-0ubuntu1) UNRELEASED; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 15 Apr 2015 14:46:00 -0700
 
-ksnakeduel (4:14.12.3-0ubuntu1) vivid; urgency=medium
+ksnakeduel (4:14.12.0-0ubuntu3) vivid; urgency=medium
 
-  * New upstream release
-  * Release to archive.
+  * Update upstream_rename-to-ksnakeduel.diff to fix call to ksnakeduel
+    binary in .desktop LP: #1451424 ".desktop file still calls ktron"
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 15:09:08 -0700
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 04 May 2015 14:19:52 +0200
 
 ksnakeduel (4:14.12.0-0ubuntu1) vivid; urgency=medium
 
