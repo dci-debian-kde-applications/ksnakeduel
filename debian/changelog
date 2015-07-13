@@ -1,3 +1,22 @@
+ksnakeduel (4:15.04.2-0ubuntu1) wily; urgency=medium
+
+  [ Scarlett Clark ]
+  * Removed upstream applied upstream_rename-to-ksnakeduel.diff
+  * New upstream release
+
+  [ José Manuel Santamaría Lema ]
+  * Fix install file.
+
+  [ Scarlett Clark ]
+  * Fix kdelibs version
+  * New upstream release
+  * kde4 games need to depend on 14.12 series libkdegames.
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 19:22:43 +0200
+
 ksnakeduel (4:15.04.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.04.0).
@@ -12,12 +31,12 @@ ksnakeduel (4:14.12.3-1) experimental; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Sun, 29 Mar 2015 15:13:07 +0200
 
-ksnakeduel (4:14.12.3-0ubuntu1) vivid; urgency=medium
+ksnakeduel (4:14.12.0-0ubuntu3) vivid; urgency=medium
 
-  * New upstream release
-  * Release to archive.
+  * Update upstream_rename-to-ksnakeduel.diff to fix call to ksnakeduel
+    binary in .desktop LP: #1451424 ".desktop file still calls ktron"
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 15:09:08 -0700
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 04 May 2015 14:19:52 +0200
 
 ksnakeduel (4:14.12.0-0ubuntu1) vivid; urgency=medium
 
