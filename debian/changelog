@@ -1,19 +1,19 @@
+ksnakeduel (4:15.07.90-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 13 Aug 2015 22:32:39 +0100
+
 ksnakeduel (4:15.04.2-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
   * Removed upstream applied upstream_rename-to-ksnakeduel.diff 
   * New upstream release
+  * Fix kdelibs version
+  * kde4 games need to depend on 14.12 series libkdegames. 
 
   [ José Manuel Santamaría Lema ]
   * Fix install file.
-
-  [ Scarlett Clark ]
-  * Fix kdelibs version
-  * New upstream release
-  * kde4 games need to depend on 14.12 series libkdegames. 
-
-  [ Jonathan Riddell ]
-  * New upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 19:22:43 +0200
 
