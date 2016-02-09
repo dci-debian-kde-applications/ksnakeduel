@@ -14,7 +14,7 @@ Build-Depends: cmake,
                debhelper (>= 9),
                kde-sc-dev-latest (>= 4:4.11),
                kdelibs5-dev (>= 4:4.14),
-               libkdegames-dev,
+               libkdegames-dev (>= 4.9.0~),
                pkg-kde-tools (>= 0.14)
 Standards-Version: 3.9.6
 Homepage: http://games.kde.org/
@@ -24,8 +24,8 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/ksnakeduel.git
 Package: ksnakeduel
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: ktron (<< 4:4.9.97-0ubuntu2)
-Breaks: ktron (<< 4:4.9.97-0ubuntu2)
+Replaces: ktron (<= 4:4.14.0-1)
+Breaks: ktron (<= 4:4.14.0-1)
 Recommends: khelpcenter
 Description: snake race game
  The object of the game is to avoid running into walls, your own tail,

@@ -1,8 +1,15 @@
-ksnakeduel (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
+ksnakeduel (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
+  * Merged with Debian
   * New upstream release
 
- -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:16:35 +0000
+ -- Clive Johnston <clivejo@aol.com>  Tue, 09 Feb 2016 23:16:24 +0000
+
+ksnakeduel (4:15.12.0-1) experimental; urgency=medium
+
+  * New upstream release (15.12.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:22:52 +0100
 
 ksnakeduel (4:15.08.2-0ubuntu1) wily; urgency=medium
 
@@ -16,6 +23,12 @@ ksnakeduel (4:15.08.1-0ubuntu1) wily; urgency=medium
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 17:24:05 +0100
 
+ksnakeduel (4:15.08.0-1) unstable; urgency=medium
+
+  * New upstream release (15.08.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 19:10:39 +0200
+
 ksnakeduel (4:15.08.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
@@ -28,18 +41,33 @@ ksnakeduel (4:15.07.90-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 11:13:14 +0100
 
+ksnakeduel (4:15.04.3-1) unstable; urgency=medium
+
+  * New upstream release (15.04.3).
+  * Update copyright information.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 13 Jul 2015 13:22:38 +0200
+
 ksnakeduel (4:15.04.2-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
-  * Removed upstream applied upstream_rename-to-ksnakeduel.diff 
+  * Removed upstream applied upstream_rename-to-ksnakeduel.diff
   * New upstream release
   * Fix kdelibs version
   * kde4 games need to depend on 14.12 series libkdegames. 
-
+  * Fix install file.
   [ José Manuel Santamaría Lema ]
   * Fix install file.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 19:22:43 +0200
+
+ksnakeduel (4:14.12.3-1) experimental; urgency=medium
+
+  * New upstream release (14.12.3).
+  * Bump Standards-Version to 3.9.6.
+  * Refresh patch.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 29 Mar 2015 15:13:07 +0200
 
 ksnakeduel (4:14.12.0-0ubuntu3) vivid; urgency=medium
 
@@ -111,7 +139,7 @@ ksnakeduel (4:4.13.2-0ubuntu4) utopic; urgency=medium
 
 ksnakeduel (4:4.13.2-0ubuntu3) utopic; urgency=medium
 
-  * Add a transitional package for ksnakeduel 
+  * Add a transitional package for ksnakeduel
   * ktron breaks/replaces ksnakeduel << 4:4.13.2
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 06 Jul 2014 22:25:11 +0200
@@ -377,4 +405,3 @@ ksnakeduel (4:4.9.90-0ubuntu1) raring; urgency=low
   * Initial release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Dec 2012 17:39:47 +0000
-
