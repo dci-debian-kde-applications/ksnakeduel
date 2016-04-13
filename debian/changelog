@@ -1,3 +1,11 @@
+ksnakeduel (4:15.12.3-1~1.gbp114349) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @11434929fed0e48019270d3805393830596d8d9f **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:06:04 +0200
+
 ksnakeduel (4:15.12.0-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
