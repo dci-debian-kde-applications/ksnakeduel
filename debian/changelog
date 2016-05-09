@@ -1,8 +1,10 @@
-ksnakeduel (4:15.12.2-1~) UNRELEASED; urgency=medium
+ksnakeduel (4:16.04.0-1~1.gbp8c8e33) UNRELEASED; urgency=medium
 
-  * New upstream release (15.12.2).
+  ** SNAPSHOT build @8c8e33e3fdbb4aa43501552402574ea4a726aae0 **
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 09:48:45 +0100
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Thu, 21 Apr 2016 03:05:09 +0200
 
 ksnakeduel (4:15.12.0-1) experimental; urgency=medium
 
