@@ -1,10 +1,6 @@
-ksnakeduel (4:16.04.0-1~2.gbp7547ab) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @7547ab238e37fecdd03f9a9f9c9303e28857d046 **
+ksnakeduel (4:16.04.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @8c8e33e3fdbb4aa43501552402574ea4a726aae0 **
-
   * Bump Standards-Version to 3.9.8
 
   [ Maximiliano Curia ]
@@ -12,7 +8,7 @@ ksnakeduel (4:16.04.0-1~2.gbp7547ab) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 12:17:05 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 May 2016 23:37:51 +0200
 
 ksnakeduel (4:15.12.0-1) experimental; urgency=medium
 
