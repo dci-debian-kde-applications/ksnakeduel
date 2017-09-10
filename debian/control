@@ -35,8 +35,8 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/ksnakeduel.git
 Package: ksnakeduel
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: ktron (<= 4:4.14.0-1)
-Breaks: ktron (<= 4:4.14.0-1)
+Replaces: ktron (<= 4:4.14.0-1), ${kde-l10n:all}
+Breaks: ktron (<= 4:4.14.0-1), ${kde-l10n:all}
 Recommends: khelpcenter
 Description: snake race game
  The object of the game is to avoid running into walls, your own tail,
